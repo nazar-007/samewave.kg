@@ -1,0 +1,69 @@
+####################################
+# Node / React / Vite
+####################################
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.cache/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# coverage
+coverage/
+
+####################################
+# Symfony
+####################################
+/vendor/
+/var/cache/
+/var/log/
+/var/sessions/
+/public/bundles/
+
+# Symfony env
+/.env.local
+/.env.*.local
+/.env.dev.local
+/.env.test.local
+/.env.prod.local
+
+# Symfony secrets
+/config/secrets/prod/prod.decrypt.private.php
+/config/secrets/dev/dev.decrypt.private.php
+
+# Symfony PHP tools
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+
+####################################
+# Database / uploads (если есть)
+####################################
+/public/uploads/
+/public/media/
+
+####################################
+# IDE / OS
+####################################
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+####################################
+# Misc
+####################################
+.eslintcache
+*.tsbuildinfo
